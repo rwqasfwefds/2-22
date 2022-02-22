@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/function.css">
+    <script src="js/click_color.js"></script>
+</head>
+<body>
+    <button id="change">글자색 바꾸기</button>
+    <p>Reprehendeit tempor do quis sunt eu et</p>
+
+    <script>
+        let changeBttn = document.querySelector('#change');
+        changeBttn.onclick = changeColor;
+
+        function changeColor(){
+            document.querySelector('p').style.color = "#f00";
+        }
+
+                // 이렇게도 쓰임 이건 나중에 할거임
+        //         let changeBttn = document.querySelector('#change');
+        //         changeBttn.onclick = function (){
+        //         document.querySelector('p').style.color = "#f00";
+        // } 
+        
+        
+    </script>
+    
+</body>
+</html>
